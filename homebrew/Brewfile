@@ -1,0 +1,70 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "pivotal/tap"
+tap "px4/px4"
+# Download with resuming and segmented downloading
+brew "aria2"
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew "asdf"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Distributed revision control system
+brew "git"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
+# Bash and Zsh completion for Gradle
+brew "gradle-completion"
+# Mac App Store command-line interface
+brew "mas"
+# Java-based project management
+brew "maven"
+# Bash completion for Maven
+brew "maven-completion"
+# Platform built on V8 to build network applications
+brew "node"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
+brew "pivotal/tap/springboot"
+# GNU Embedded Toolchain for ARM
+brew "px4/px4/gcc-arm-none-eabi"
+cask "1password"
+cask "adoptopenjdk"
+cask "android-platform-tools"
+cask "docker"
+cask "evernote"
+cask "firefox"
+cask "font-fira-code"
+cask "font-firacode-nerd-font"
+cask "font-firacode-nerd-font-mono"
+cask "garagesale"
+cask "google-chrome"
+cask "iina"
+cask "intellij-idea-ce"
+cask "iterm2"
+cask "keepingyouawake"
+cask "mactex-no-gui"
+cask "mediathekview"
+cask "mpv"
+cask "mullvadvpn"
+cask "netnewswire"
+cask "notable"
+cask "signal"
+cask "spectacle"
+cask "spotify"
+cask "standard-notes"
+cask "tinymediamanager"
+cask "transmission"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "vox"
+mas "1Blocker", id: 1107421413
+mas "Banking 4X", id: 926711151
+mas "BrowseShot", id: 615916400
+mas "iMovie", id: 408981434
+mas "Reeder", id: 880001334
+mas "Things", id: 904280696
+mas "WireGuard", id: 1451685025

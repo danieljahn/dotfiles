@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Solarized Light+",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "window.zoomLevel": -1,
+    "python.venvPath": "/usr/local/miniconda3/envs",
+    "editor.fontFamily": "'Fura Code', 'Fira Code',Inconsolata, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400",
+    "git.enableSmartCommit": true,
+    "python.linting.flake8Args": [
+        "--config",
+        "test/flake8.conf"
+    ],
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "'FuraCode Nerd Font Mono'",
+    "gitlens.advanced.telemetry.enabled": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "code-runner.enableAppInsights": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.clean.subfolder.enabled": true,
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+}
