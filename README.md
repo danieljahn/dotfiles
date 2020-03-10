@@ -17,4 +17,7 @@ Run `make setup`
 ## Backup
 Run `make backup`
 
+## Credits
+Inspired by the awesome dotfiles repos of [ mathiasbynens ](https://github.com/mathiasbynens/dotfiles) and [nelsonmestevao](https://github.com/nelsonmestevao/dotfiles).
+
 
