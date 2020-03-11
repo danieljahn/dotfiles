@@ -13,3 +13,8 @@ alias sdots='cd $DOTFILES && make setup'
 
 # VSCODE
 alias code='code --disable-gpu'
+
+# APPS
+alias chrome='open -a "Google Chrome"'
+alias firefox='open -a "Firefox"'
+
