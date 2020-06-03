@@ -3,7 +3,7 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -2,
     "python.venvPath": "/usr/local/miniconda3/envs",
     "editor.fontFamily": "'Fura Code', 'Fira Code',Inconsolata, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 14,
@@ -27,4 +27,5 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.clean.subfolder.enabled": true,
     "latex-workshop.latex.autoClean.run": "onBuilt",
+    "python.jediEnabled": false,
 }
