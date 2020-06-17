@@ -3,7 +3,6 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "window.zoomLevel": -2,
     "python.venvPath": "/usr/local/miniconda3/envs",
     "editor.fontFamily": "'Cascadia Code', 'Fura Code', 'Fira Code',Inconsolata, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 14,
@@ -15,7 +14,7 @@
         "test/flake8.conf"
     ],
     "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.fontFamily": "'FuraCode Nerd Font Mono'",
+    "terminal.integrated.fontFamily": "'Cascadia Mono PL' ,'FuraCode Nerd Font Mono'",
     "gitlens.advanced.telemetry.enabled": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
@@ -28,4 +27,6 @@
     "latex-workshop.latex.clean.subfolder.enabled": true,
     "latex-workshop.latex.autoClean.run": "onBuilt",
     "python.jediEnabled": false,
+    "window.zoomLevel": 1,
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
 }

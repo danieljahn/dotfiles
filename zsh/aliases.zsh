@@ -11,10 +11,14 @@ alias edots='code $DOTFILES'
 alias bdots='cd $DOTFILES && make backup'
 alias sdots='cd $DOTFILES && make setup'
 
-# VSCODE
-alias code='code --disable-gpu'
 
-# APPS
-alias chrome='open -a "Google Chrome"'
-alias firefox='open -a "Firefox"'
+if [[ $(uname) == 'Darwin' ]] 
+then
+    # VSCODE
+    alias code='code --disable-gpu'
+
+    # APPS
+    alias chrome='open -a "Google Chrome"'
+    alias firefox='open -a "Firefox"'
+fi
 

@@ -18,6 +18,6 @@ Run `make setup`
 Run `make backup`
 
 ## Credits
-Inspired by the awesome dotfiles repos of [ mathiasbynens ](https://github.com/mathiasbynens/dotfiles) and [nelsonmestevao](https://github.com/nelsonmestevao/dotfiles).
+Inspired by the awesome dotfiles repos of [mathiasbynens](https://github.com/mathiasbynens/dotfiles) and [nelsonmestevao](https://github.com/nelsonmestevao/dotfiles).
 
 

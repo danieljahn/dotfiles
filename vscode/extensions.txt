@@ -9,6 +9,7 @@ fabiospampinato.vscode-todo-plus
 formulahendry.code-runner
 James-Yu.latex-workshop
 johnpapa.Angular2
+mads-hartmann.bash-ide-vscode
 ms-python.python
 ms-vscode.cpptools
 ms-vscode.vscode-typescript-tslint-plugin
@@ -22,6 +23,7 @@ rarnoldmobile.todo-txt
 redhat.java
 redhat.vscode-yaml
 ryanolsonx.solarized
+truman.autocomplate-shell
 VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency
