@@ -64,7 +64,7 @@ function _link () {
 }
 
 function _setup() {
-  dirs=$(find . -maxdepth 1 -mindepth 1 -type d -not -name '.git' -not -name 'homebrew' -print)
+  dirs=$(find . -maxdepth 1 -mindepth 1 -type d -not -name '.git' -print)
 
   for dir in $dirs; do
     echo_info "Setting up ${dir}..."
