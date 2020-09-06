@@ -1,3 +1,5 @@
+alias sz='source $HOME/.zshrc'
+
 # Navigation
 alias ll='ls -lh'
 alias la='ls -lah'
