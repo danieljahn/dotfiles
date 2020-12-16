@@ -17,8 +17,8 @@ defaults write com.apple.dock minimize-to-application -bool true
 defaults write com.apple.dock launchanim -bool false
 # Show only active apps 
 defaults write com.apple.dock static-only -bool true
-# Activate single app mode
-defaults write com.apple.dock single-app -bool true
+# Single app mode
+defaults write com.apple.dock single-app -bool false
 # Highlight hidden apps
 defaults write com.apple.Dock showhidden -bool yes;
 # Remove the auto-hiding Dock delay

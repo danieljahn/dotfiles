@@ -3,7 +3,7 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "window.zoomLevel": -2,
+    "window.zoomLevel": 1,
     "python.venvPath": "/usr/local/miniconda3/envs",
     "editor.fontFamily": "'Cascadia Code', 'Fura Code', 'Fira Code',Inconsolata, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 14,

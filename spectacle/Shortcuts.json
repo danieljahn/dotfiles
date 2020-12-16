@@ -48,7 +48,7 @@
     "shortcut_name" : "MoveToFullscreen"
   },
   {
-    "shortcut_key_binding" : null,
+    "shortcut_key_binding" : "ctrl+alt+pagedown",
     "shortcut_name" : "MoveToNextThird"
   },
   {
@@ -64,7 +64,7 @@
     "shortcut_name" : "MoveToRightHalf"
   },
   {
-    "shortcut_key_binding" : null,
+    "shortcut_key_binding" : "ctrl+alt+forwarddelete",
     "shortcut_name" : "MoveToPreviousThird"
   },
   {
