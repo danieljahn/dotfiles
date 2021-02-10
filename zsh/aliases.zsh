@@ -18,3 +18,7 @@ alias code='code --disable-gpu'
 alias chrome='open -a "Google Chrome"'
 alias firefox='open -a "Firefox"'
 
+# HOMEBREW
+alias bs='brew search'
+alias bi='brew install'
+alias bic='brew install --cask'

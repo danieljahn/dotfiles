@@ -27,6 +27,8 @@ cask "1password"
 cask "adoptopenjdk"
 # Android SDK component
 cask "android-platform-tools"
+# Video conferencing for the digital workplace
+cask "bluejeans"
 # Voice and text chat software
 cask "discord"
 # Client for the Dropbox cloud storage service
@@ -54,12 +56,16 @@ cask "iina"
 cask "intellij-idea"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Free, open-source and secure video conferencing app
+cask "jitsi-meet"
 # Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
 # Media player based on MPlayer and mplayer2
 cask "mpv"
 # VPN client
 cask "mullvadvpn"
+# Instant messaging application focusing on security
+cask "signal"
 # Music streaming service
 cask "spotify"
 # Remote access and connectivity software focused on security
