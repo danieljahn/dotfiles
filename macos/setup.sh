@@ -28,7 +28,7 @@ defaults write com.apple.dock autohide-delay -float 0
 
 
 # Menu Bar: Hide 
-defaults write NSGlobalDomain _HIHideMenuBar -bool true
+defaults write NSGlobalDomain _HIHideMenuBar -bool false
 
 # Disable the Launchpad gesture (pinch with thumb and three fingers)
 defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
