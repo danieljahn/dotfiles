@@ -30,8 +30,9 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="yyyy-mm-dd"
 
 plugins=(
-  git
   common-aliases
+  brew
+  git
   docker
   extract
   history

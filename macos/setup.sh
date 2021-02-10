@@ -16,7 +16,7 @@ defaults write com.apple.dock minimize-to-application -bool true
 # Dock: Don’t animate opening applications from the Dock
 defaults write com.apple.dock launchanim -bool false
 # Show only active apps 
-defaults write com.apple.dock static-only -bool true
+defaults write com.apple.dock static-only -bool false
 # Single app mode
 defaults write com.apple.dock single-app -bool false
 # Highlight hidden apps
