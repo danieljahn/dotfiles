@@ -2,17 +2,10 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
-tap "pivotal/tap"
-tap "px4/px4"
-tap "qmk/qmk"
 # Download with resuming and segmented downloading
 brew "aria2"
-# Extendable version manager with support for Ruby, Node.js, Erlang & more
-brew "asdf"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Configurable talking characters in ASCII art
-brew "cowsay"
 # Distributed revision control system
 brew "git"
 # GNU Pretty Good Privacy (PGP) package
@@ -21,63 +14,57 @@ brew "gnupg"
 brew "gradle"
 # Bash and Zsh completion for Gradle
 brew "gradle-completion"
-# Mac App Store command-line interface
-brew "mas"
 # Java-based project management
 brew "maven"
 # Bash completion for Maven
 brew "maven-completion"
 # Platform built on V8 to build network applications
 brew "node"
-# Static analysis and lint tool, for (ba)sh scripts
-brew "shellcheck"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
-brew "pivotal/tap/springboot"
-# GNU Embedded Toolchain for ARM
-brew "px4/px4/gcc-arm-none-eabi"
-# Quantum Mechanical Keyboard (QMK) Firmware
-brew "qmk/qmk/qmk"
+# Password manager that keeps all passwords secure behind one password
 cask "1password"
 cask "adoptopenjdk"
+# Android SDK component
 cask "android-platform-tools"
+# Voice and text chat software
 cask "discord"
-cask "docker"
+# Client for the Dropbox cloud storage service
+cask "dropbox"
+# App for note taking, organizing, task lists, and archiving
 cask "evernote"
+# Web browser
 cask "firefox"
-cask "font-cascadia"
-cask "font-cascadia-pl"
+# Monospaced font that includes programming ligatures
+cask "font-cascadia-code"
+# Version of Cascadia Code with embedded Powerline symbols
+cask "font-cascadia-code-pl"
+# Version of Cascadia Code without ligatures
+cask "font-cascadia-mono"
+# Version of Cascadia Code without ligatures and with embedded Powerline symbols
+cask "font-cascadia-mono-pl"
 cask "font-fira-code"
-cask "font-firacode-nerd-font"
-cask "font-firacode-nerd-font-mono"
 cask "garagesale"
+# Web browser
 cask "google-chrome"
+# Open-source video transcoder
+cask "handbrake"
+# Free and open-source media player
 cask "iina"
-cask "intellij-idea-ce"
+cask "intellij-idea"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-cask "keepingyouawake"
-cask "libreoffice"
+# Full TeX Live distribution without GUI applications
 cask "mactex-no-gui"
-cask "mediathekview"
+# Media player based on MPlayer and mplayer2
 cask "mpv"
+# VPN client
 cask "mullvadvpn"
-cask "netnewswire"
-cask "notable"
-cask "postman"
-cask "signal"
-cask "spectacle"
+# Music streaming service
 cask "spotify"
-cask "standard-notes"
+# Remote access and connectivity software focused on security
 cask "teamviewer"
-cask "tinymediamanager"
+# Open-source BitTorrent client
 cask "transmission"
-cask "virtualbox"
+# Open-source code editor
 cask "visual-studio-code"
-cask "vox"
-mas "1Blocker", id: 1107421413
-mas "Banking 4X", id: 926711151
-mas "BrowseShot", id: 615916400
-mas "iMovie", id: 408981434
-mas "Reeder", id: 880001334
-mas "Things", id: 904280696
-mas "WireGuard", id: 1451685025

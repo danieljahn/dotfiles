@@ -64,7 +64,7 @@ function _link () {
 }
 
 function _setup() {
-  dirs=$(find . -maxdepth 1 -mindepth 1 -type d -not -name '.git' -not -name 'homebrew' -print)
+  dirs=$(find . -maxdepth 1 -mindepth 1 -type d -not -name '.git' -not -name '.idea' -not -name 'homebrew' -print)
 
   for dir in $dirs; do
     echo_info "Setting up ${dir}..."
@@ -81,7 +81,7 @@ function _setup() {
 }
 
 function _backup() {
-  dirs=$(find . -maxdepth 1 -mindepth 1 -type d -not -name '.git' -print)
+  dirs=$(find . -maxdepth 1 -mindepth 1 -type d -not -name '.git' -not -name '.idea' -print)
 
   for dir in $dirs; do
     echo_info "Backing up ${dir}..."

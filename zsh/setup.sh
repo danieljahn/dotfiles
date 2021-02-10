@@ -29,6 +29,7 @@ else
 fi
 
 _link zshrc $HOME/.zshrc
+_link zprofile $HOME/.zprofile
 _link aliases.zsh $HOME/.zsh/aliases.zsh
 _link environment.zsh $HOME/.zsh/environment.zsh
 _link functions.zsh $HOME/.zsh/functions.zsh
