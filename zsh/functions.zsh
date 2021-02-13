@@ -13,3 +13,7 @@ function artep-dl(){
 function idea() {
   open -na "IntelliJ IDEA.app" --args "$@"
 }
+
+function ltedit() {
+  open -na "IntelliJ IDEA.app" --args -e "$@"
+}
